@@ -6,5 +6,5 @@ console.log(listElement);
 console.log(inputElement);
 console.log(buttonElement);
 
-var todos = {'fazer café', 'beber gasolina',
-'jogar lixo no lixo'};
+var todos = ['fazer café', 'beber gasolina',
+'jogar lixo no lixo'];
