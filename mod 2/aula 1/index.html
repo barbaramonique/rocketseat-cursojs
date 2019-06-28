@@ -7,20 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="botão">clique no botão</button>
-    <div id="espaço"></div>
-    <div id="quadrado"></div>
+        <button id="botao">clique no botão</button>
+        <div id="quadrado"></div>
+
     <script>
 
+            var botaoE = document.getElementById("botao");
+            var quadradoE = document.getElementById("quadrado");
+            botaoE.onclick = function () {
+                var quadrado = document.createElement("div");
+                quadrado.style.width = '100px';
+                quadrado.style.height = '100px';
+                quadrado.style.backgroundColor = '#F00';
+                quadradoE.appendChild(quadrado);
+            };
 
-
-    var botão = document.getElementById("botão");
-    var espaço = document.getElementById("quadrado");
-
-    
-
-
-    
     </script>
 </body>
 </html>
+
