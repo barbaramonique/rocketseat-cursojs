@@ -9,7 +9,14 @@
 <body>
     <script>
     
-    var usuarios = [
+
+function habil(usuarios) {
+            for (usuario of usuarios) {
+                 console.log("A " + usuarios.nome + " possui as habilidades: " +  usuarios.habilidades.join + (", ") );
+            }
+        }
+
+        var usuarios = [
  {
  nome: "Bárbara",
  habilidades: ["Pintura", "Canto", "Volei"]
@@ -19,6 +26,9 @@
  habilidades: ["Basquete", "Bruxaria", "Alquimia"]
  }
 ];
+
+      habil(usuarios);
+
 
 
 
